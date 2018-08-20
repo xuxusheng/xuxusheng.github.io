@@ -1,0 +1,1 @@
+{"total":21,"pageSize":10,"pageCount":3,"current":3,"data":[{"title":"git撤销已经push到远端的commit","date":"2016-07-13T20:17:34.000Z","author":"许盛","excerpt":"<p>在使用git时，push到远端后发现commit了多余的文件，或者希望能够回退到以前的版本。</p>","slug":"git撤销已经push到远端的commit","tags":["git"],"categories":["git"]}]}
