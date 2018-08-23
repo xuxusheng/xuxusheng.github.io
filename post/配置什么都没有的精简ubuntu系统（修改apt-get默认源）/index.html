@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<title>配置什么都没有的精简ubuntu系统（修改apt-get默认源） - XuSheng&#39;s Blog</title>
+<base href="/">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#2a2b33">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="translucent">
+<meta name="description" content="首先利用 docker 创建一个基于 ubuntu 镜像的容器 这个时候当我们试图安装一个 curl 软件的时候，会提示 E：Unable to locate package curl。因为Docker镜像为了精简镜像容量，默认删除了这些信息，需要我们使用apt-get update命令来更新一次。 但是使用 apt-get update 命令更新时奇慢无比，因为默认的源是国外的源，需要自己手动去">
+<meta name="keywords" content="linux,docker">
+<meta property="og:type" content="website">
+<meta property="og:title" content="配置什么都没有的精简ubuntu系统（修改apt-get默认源）">
+<meta property="og:url" content="https://xuxusheng.github.io/post/配置什么都没有的精简ubuntu系统（修改apt-get默认源）/index.html">
+<meta property="og:site_name" content="XuSheng&#39;s Blog">
+<meta property="og:description" content="首先利用 docker 创建一个基于 ubuntu 镜像的容器 这个时候当我们试图安装一个 curl 软件的时候，会提示 E：Unable to locate package curl。因为Docker镜像为了精简镜像容量，默认删除了这些信息，需要我们使用apt-get update命令来更新一次。 但是使用 apt-get update 命令更新时奇慢无比，因为默认的源是国外的源，需要自己手动去">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://xuxusheng.github.io/post/配置什么都没有的精简ubuntu系统（修改apt-get默认源）/assets/images/配置什么都没有的精简ubuntu系统（修改apt-get默认源）/docker-run.png">
+<meta property="og:image" content="https://xuxusheng.github.io/post/配置什么都没有的精简ubuntu系统（修改apt-get默认源）/assets/images/配置什么都没有的精简ubuntu系统（修改apt-get默认源）/apt-get-install.png">
+<meta property="og:image" content="https://xuxusheng.github.io/post/配置什么都没有的精简ubuntu系统（修改apt-get默认源）/assets/images/配置什么都没有的精简ubuntu系统（修改apt-get默认源）/cp.png">
+<meta property="og:image" content="https://xuxusheng.github.io/post/配置什么都没有的精简ubuntu系统（修改apt-get默认源）/assets/images/配置什么都没有的精简ubuntu系统（修改apt-get默认源）/vim.png">
+<meta property="og:image" content="https://xuxusheng.github.io/post/配置什么都没有的精简ubuntu系统（修改apt-get默认源）/assets/images/配置什么都没有的精简ubuntu系统（修改apt-get默认源）/apt-get-update.png">
+<meta property="og:updated_time" content="2018-08-23T09:51:26.367Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="配置什么都没有的精简ubuntu系统（修改apt-get默认源）">
+<meta name="twitter:description" content="首先利用 docker 创建一个基于 ubuntu 镜像的容器 这个时候当我们试图安装一个 curl 软件的时候，会提示 E：Unable to locate package curl。因为Docker镜像为了精简镜像容量，默认删除了这些信息，需要我们使用apt-get update命令来更新一次。 但是使用 apt-get update 命令更新时奇慢无比，因为默认的源是国外的源，需要自己手动去">
+<meta name="twitter:image" content="https://xuxusheng.github.io/post/配置什么都没有的精简ubuntu系统（修改apt-get默认源）/assets/images/配置什么都没有的精简ubuntu系统（修改apt-get默认源）/docker-run.png">
+<link rel="stylesheet" href="/theme.be55c76194f3b76b4537.css">
+<link rel="stylesheet" href="/styles.89afe31ae4afb635fb0c.css">
+
+<script src="/config.fe9073d7d90abc19a87f.js"></script>
+</head>
+<body>
+<is-root></is-root>
+<script src="/runtime.a66f828dca56eeb90e02.js"></script>
+<script src="/polyfills.8f67e44aa389442fc98e.js"></script>
+<script src="/main.d1aa37df26e35d2c4502.zh-Hans.js"></script>
+</body>
+</html>
